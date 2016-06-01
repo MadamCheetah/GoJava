@@ -8,6 +8,14 @@ public class Rosebush extends BunchOfFlowers{
 
    private List<Rose> rosebush;
 
+    public boolean isInBlossom() {
+        return inBlossom;
+    }
+
+    public void setInBlossom(boolean inBlossom) {
+        this.inBlossom = inBlossom;
+    }
+
     public List<Rose> getRosebush() {
         return rosebush;
     }
