@@ -4,6 +4,7 @@ public class ImageFile extends File {
     private int pixelsPerHeight;
     private int pixelsPerWidth;
     private double displaySize;
+    private double qualityOfImage;
 
     public int getPixelsPerHeight() {
         return pixelsPerHeight;
@@ -29,7 +30,8 @@ public class ImageFile extends File {
         this.displaySize = displaySize;
     }
 
-    private void pixelsPerInch(int pixelsPerHeight, int pixelsPerWidth, double displaySize){
+    private double pixelsPerInch(int pixelsPerHeight, int pixelsPerWidth, double displaySize){
+        return qualityOfImage;
     }
 
 }

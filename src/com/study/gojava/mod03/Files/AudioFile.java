@@ -12,9 +12,11 @@ public class AudioFile extends File {
     }
 
     public void turnUpTheSound(){
+        System.out.println("Let's get loud!");
     }
 
     public void turnDownTheSound(){
+        System.out.println("Hush!");
     }
 
 }
