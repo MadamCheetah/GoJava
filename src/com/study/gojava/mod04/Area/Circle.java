@@ -11,19 +11,23 @@ public class Circle
         this.radius = radius;
     }
 
-    public double getRadius() {
+    public double getRadius()
+    {
         return radius;
     }
 
-    public void setRadius(double radius) {
+    public void setRadius(double radius)
+    {
         this.radius = radius;
     }
 
-    static double square(double x){
+    static double square(double x)
+    {
         return x*x;
     }
 
-    public double findArea(){
+    public double findArea()
+    {
        return PI*square(this.radius);
     }
 
