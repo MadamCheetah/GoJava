@@ -4,7 +4,7 @@ package com.study.gojava.mod05;
 public class SelectionSort extends ArrayOfNumbers {
 
     public void selectionSort(double[] arrayOfInt){
-        for (int i = 0; i < arrayOfInt.length; i++){
+        for (int i = 0; i < arrayOfInt.length-1; i++){
         double temp = arrayOfInt[i];
         arrayOfInt[i] = arrayOfInt[super.findMinElement(arrayOfInt)];
             arrayOfInt[super.findMaxElement(arrayOfInt)] = temp;
