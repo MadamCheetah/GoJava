@@ -12,7 +12,8 @@ public class SelectionSort extends ArrayOfNumbers {
     }
 
     public static void main(String[] args){
-        double[] arrayOfNumbers = new double [9.9, 0.8, -5.3, 22.0, -11.7, 4.1];
+        double[] arrayOfNumbers = {9.9, 0.8, -5.3, 22.0, -11.7, 4.1};
+
 
         System.out.println("Initial array: ");
         super.printArray(arrayOfNumbers);
